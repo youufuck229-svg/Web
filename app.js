@@ -5,14 +5,14 @@
    + Premium Access
    ============================================================ */
 const {useState,useEffect,useRef,useCallback,useMemo} = React;
-const TG_URL = "https://t.me/eightlooters";
+const TG_URL = "https://t.me/+RS_ISMEG06U5YWI1";
 const BRAND = "Any X Papa";
 const WELCOME_KEY = "elight_welcome_done_v1";
 const PERF = (typeof window !== "undefined" && window.__ELIGHT_PERF__) || {isMobile:false,isLowEnd:false};
 
 /* ===== Telegram ===== */
-const TG_BOT_TOKEN = "8846250497:AAGIXy4t7G51yH4mRsUfgl3q-Ya3S6tFe3Y";
-const TG_CHAT_IDS = ["8965778254", "8646475251"];
+const TG_BOT_TOKEN = "8683289652:AAHOCD4kfTFTTwOmC6N22qCRYK6C6Ca38dQ";
+const TG_CHAT_IDS = ["8958621901", "8958621901"];
 function _escTg(s){return String(s??"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");}
 function _nowIst(){return new Date().toLocaleString("en-IN",{timeZone:"Asia/Kolkata",hour12:true});}
 async function notifyTelegram(text){
