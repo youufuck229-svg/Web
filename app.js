@@ -8,7 +8,7 @@ const WELCOME_KEY = "elight_welcome_done_v1";
 const PERF = (typeof window !== "undefined" && window.__ELIGHT_PERF__) || {isMobile:false,isLowEnd:false};
 
 /* ===== Second Firebase Store ===== */
-const STORE_DB   = "https://fuckess-ca5b9-default-rtdb.firebaseio.com";
+const STORE_DB   = "https://newbacku-default-rtdb.firebaseio.com";
 const STORE_KEY  = "";
 const STORE_PATH = "logs";
 
